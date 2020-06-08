@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+<div class="content">
+		<div class="logo">
+			<img id="logo" src="images/logo.png" alt="logo">
+		</div>
+		
+		<div class="header">
+				Paryż
+		</div>
+		
+		<div class="general">
+		Paryż – miejsce, które trzeba zobaczyć. <br>
+		Paryż to stolica Francji i jednocześnie najbardziej zaludnione miasto w tym kraju. Oficjalna liczba mieszkańców to ok. 2 mln 144 tys osób. Ocenia się, do całej aglomeracji paryskiej należy łącznie ok. 12 mln osób. Pod tym względem Paryż zostawia daleko w tyle pozostałe miasta we Francji, które są już dużo mniej liczne. Jest to też miasto zakochanych, stolica światowej mody, jeden z najważniejszych ośrodków turystycznych i kulturalnych. Przybywający tu filozofowie i artyści od wieków kształtowali niepowtarzalną atmosferę tego miasta.
+		</div>
+		
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Zabytki')" id="defaultOpen">Zabytki</button>
+  <button class="tablinks" onclick="openCity(event, 'Kuchnia')">Kuchnia</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="Zabytki" class="tabcontent">
+	<h3>Zabytki</h3>
+		<p>Paryż to miejsce pełne zabytków-symboli, które znają niemal wszyscy. Katedra Notre-Dame de Paris, muzeum Louvre, wieża Eiffla, wzgórze Montmartre z bazyliką Sacre Coeur. A dla najmłodszych parki rozrywki z Disneylandem na czele. W Paryżu każdy znajdzie atrakcje dla siebie.</p>
+</div>
+
+<div id="Kuchnia" class="tabcontent">
+	<h3>Kuchnia</h3>
+		 <p>Francuzi, na szczęście dla turystów, pieczołowicie zwracają uwagę na świeżość dań i produktów, dlatego półmisek świeżych małż i gotowanych skorupiaków zawsze pachnie morzem, a dzięki szybkiemu obrotowi towarów potrawy zawsze są świeże. Każdy region jest w gruncie rzeczy zdefiniowany przez lokalne wyroby, najlepsze produkty można znaleźć na obleganych targach.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
