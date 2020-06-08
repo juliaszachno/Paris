@@ -17,6 +17,7 @@
 		padding-top:7px;
 		text-align:center;
 		color:#A2C3A6;
+		margin-bottom:30px;
 	}
 	.general{
 		float:left;
@@ -34,67 +35,67 @@
 		font-size:19px;
 		color:#00695c;
 	}
-	* {box-sizing: border-box}
+ {box-sizing: border-box}
 
-	/* Style the tab */
-	.tab {
-	  float: left;
-	  border: 1px solid #ccc;
-	  background-color: #00695c;
-	  width: 30%;
-	  height: 300px;
-	}
+.navbar {
+  width:100%;
+  background-color: #00695c;
+  overflow: auto;
+}
 
-	/* Style the buttons inside the tab */
-	.tab button {
-	  display: block;
-	  background-color: inherit;
-	  color: #A2C3A6;
-	  padding: 22px 16px;
-	  width: 100%;
-	  border: none;
-	  outline: none;
-	  text-align: left;
-	  cursor: pointer;
-	  transition: 0.3s;
-	  font-size: 21px;
-	  font-weight:bold;
-	}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: #A2C3A6;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four links of equal widths */
+  text-align: center;
+}
 
-	/* Change background color of buttons on hover */
-	.tab button:hover {
-	  background-color: #004D40
-	}
+.navbar a:hover {
+  background-color: #004D40
+}
 
-	/* Create an active/current "tab button" class */
-	.tab button.active {
-	  background-color: #00897B;
-	}
+.navbar a.active {
+  background-color: #00897B;
+}
 
-	/* Style the tab content */
-	.tabcontent {
-	  float: left;
-	  padding: 0px 12px;
-	  border: 1px dotted #00897B;
-	  width: 70%;
-	  border-left: none;
-	  height: 300px;
-	}
+@media screen and (max-width:720px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 94%;
+    text-align: left;
+  }
+}
 @media screen and (min-width:1024px) {
 	.general{
 		color:pink;
 	}
 }
+
+
+
+
+
 @media screen and (max-width:1024px) {
 	.general{
 		color:red;
 	}
 }
+
+
+
+
+
+
 @media screen and (max-width:720px) {
 .general{
 		color:blue;
 	}
 }
+
 @media screen and (max-width:320px) {
 .general{
 		color:yellow;
