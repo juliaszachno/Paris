@@ -24,38 +24,41 @@
 		font-size:21px;
 		margin-top:30px;
 		margin-bottom:30px;
-		margin-left:10%;
+		
 		text-align:center;
 		color:#00695c;
-		width:80%;
+		width:100%;
 	}
 	.zabytki{
 		text-align:center;
-		float:none;
+		float:left;
 		width:80%;
 		margin-left:10%;
 	}
 	.kuchnia{
 		text-align:center;
-		float:none;
+		float:left;
 		width:80%;
 		margin-left:10%;
 	}
 	.tokyo{
 		text-align:center;
-		float:none;
+		float:left;
 		width:80%;
 		margin-left:10%;
+		margin-bottom:70px;
 	}
 	.footer{
 		color:#A2C3A6;
 		font-size:19px;
 		text-align:center;
+		clear:both;
 	}
 	h1,h2,h3{
 		text-align:center;
 		color:#A2C3A6;
 		font-size:23px;
+		text-decoration:underline;
 	}
 	p{
 		font-size:20px;
