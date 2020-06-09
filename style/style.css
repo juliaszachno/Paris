@@ -24,7 +24,6 @@
 		font-size:21px;
 		margin-top:30px;
 		margin-bottom:30px;
-		
 		text-align:center;
 		color:#00695c;
 		width:100%;
@@ -54,6 +53,12 @@
 		text-align:center;
 		clear:both;
 	}
+	.more{
+		font-family: 'Verdana';
+		text-align:center;
+		color:#00897B;
+		font-size:20px;
+	}
 	h1,h2,h3{
 		text-align:center;
 		color:#A2C3A6;
@@ -79,8 +84,8 @@
   color: #A2C3A6;
   text-decoration: none;
   font-size: 20px;
-  width: 20%; /* Four links of equal widths */
-  text-align: center;
+  width: 30%;
+ 
 }
 
 .navbar a:hover {
