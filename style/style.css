@@ -24,10 +24,31 @@
 		font-size:21px;
 		margin-top:30px;
 		margin-bottom:30px;
+		margin-left:10%;
 		text-align:center;
 		color:#00695c;
+		width:80%;
+	}
+	.zabytki{
+		text-align:center;
+		float:none;
+		width:80%;
+		margin-left:10%;
+	}
+	.kuchnia{
+		text-align:center;
+		float:none;
+		width:80%;
+		margin-left:10%;
+	}
+	.tokyo{
+		text-align:center;
+		float:none;
+		width:80%;
+		margin-left:10%;
 	}
 	h1,h2,h3{
+		text-align:center;
 		color:#A2C3A6;
 		font-size:23px;
 	}
