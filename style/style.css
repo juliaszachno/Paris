@@ -32,7 +32,7 @@
 		font-size:23px;
 	}
 	p{
-		font-size:19px;
+		font-size:20px;
 		color:#00695c;
 	}
  {box-sizing: border-box}
@@ -48,7 +48,7 @@
   padding: 12px;
   color: #A2C3A6;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   width: 20%; /* Four links of equal widths */
   text-align: center;
 }
@@ -61,43 +61,23 @@
   background-color: #00897B;
 }
 
+@media screen and (min-width:1024px) {
+
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
 @media screen and (max-width:720px) {
   .navbar a {
     float: none;
     display: block;
-    width: 94%;
+    width: 100%;
     text-align: left;
   }
 }
-@media screen and (min-width:1024px) {
-	.general{
-		color:pink;
-	}
-}
-
-
-
-
-
-@media screen and (max-width:1024px) {
-	.general{
-		color:red;
-	}
-}
-
-
-
-
-
-
-@media screen and (max-width:720px) {
-.general{
-		color:blue;
-	}
-}
 
 @media screen and (max-width:320px) {
-.general{
-		color:yellow;
-	}
+
 }
