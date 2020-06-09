@@ -45,7 +45,8 @@
 
 .navbar a {
   float: left;
-  padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   color: #A2C3A6;
   text-decoration: none;
   font-size: 20px;
@@ -62,7 +63,19 @@
 }
 
 @media screen and (min-width:1024px) {
-
+	.zabytki{
+		width:45%;
+		float:left;
+	}
+	.kuchnia{
+		width:45%;
+		float:right;
+	}
+	.tokyo{
+		width:45%;
+		float:left;
+		margin-top:40px;
+	}
 }
 
 @media screen and (max-width:1024px) {
