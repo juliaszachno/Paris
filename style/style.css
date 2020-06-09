@@ -47,6 +47,11 @@
 		width:80%;
 		margin-left:10%;
 	}
+	.footer{
+		color:#A2C3A6;
+		font-size:19px;
+		text-align:center;
+	}
 	h1,h2,h3{
 		text-align:center;
 		color:#A2C3A6;
@@ -91,11 +96,11 @@
 	.kuchnia{
 		width:45%;
 		float:right;
+		margin-right:10%;
 	}
 	.tokyo{
 		width:45%;
 		float:left;
-		margin-top:40px;
 	}
 }
 
