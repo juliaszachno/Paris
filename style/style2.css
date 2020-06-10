@@ -27,6 +27,12 @@
 	position:fixed;
 	right:5%;
 	bottom:1%;
+}
+.gallery img{
+	transition:1s;
+	}
+.gallery img:hover{
+	transform:scale(1.1);
 	}
 .general{
 	float:left;
@@ -160,6 +166,10 @@ p{
 	area-hidden:false;
 	tabindex:0;
 	}
+	.gallery{
+		width:650px;
+		
+	}
 	h3{
 		text-align:left;
 		margin-top:0;
@@ -178,20 +188,31 @@ p{
 	.navbar a{
 		width:50%;
 	}
+	.gallery img{
+		padding:20px;
+		margin-left:40px;
+	}
 }
 
 @media screen and (max-width:720px) {
-  .navbar a {
+	.navbar a {
 		float: none;
 		display: block;
 		width: 100%;
 		text-align: left;
-  }
-  .monuments{
+		}
+	.monuments{
 		width:87%;
 		float:left;
-  }
-  h1{
-	  margin-top:0;
-  }
+		}
+	h1{
+		margin-top:0;
+		}
+	.gallery{
+		padding-top:30px;
+		}
+	.gallery img{
+		padding:0px;
+		margin-left:0px;
+	}
 }
