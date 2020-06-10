@@ -5,104 +5,111 @@
 	background-color:white;
 	font-family: 'Verdana';
 		}
-	.logo{
-		width:20%;
-		float:left;
-		padding-top:7px;
+.logo{
+	width:20%;
+	float:left;
+	padding-top:7px;
 	}		
-	.header{
-		width:80%;
-		float:left;
-		font-size:52px;
-		padding-top:7px;
-		text-align:center;
-		color:#A2C3A6;
-		margin-bottom:30px;
+.header{
+	width:80%;
+	float:left;
+	font-size:52px;
+	padding-top:7px;
+	text-align:center;
+	color:#A2C3A6;
+	margin-bottom:30px;
 	}
-	.general{
-		float:left;
-		font-size:21px;
-		margin-top:30px;
-		margin-bottom:30px;
-		text-align:center;
-		color:#00695c;
-		width:100%;
-	}
-	.zabytki{
-		text-align:center;
-		float:left;
-		width:80%;
-		margin-left:10%;
-	}
-	.kuchnia{
-		text-align:center;
-		float:left;
-		width:80%;
-		margin-left:10%;
-	}
-	.tokyo{
-		text-align:center;
-		float:left;
-		width:80%;
-		margin-left:10%;
-		margin-bottom:70px;
-	}
-	.footer{
-		color:#A2C3A6;
-		font-size:19px;
-		text-align:center;
-		clear:both;
-	}
-	.more{
+.back{
 		font-family: 'Verdana';
+		color: #A2C3A6;
+		text-decoration: none;
+		font-size: 20px;
 		text-align:center;
-		color:#00897B;
-		font-size:20px;
 	}
-	h1{
-		float:left;
-		color:#A2C3A6;
-		font-size:36px;
-		font-weight:normal;
-		padding-top:20px;
-		width:100%;
+.general{
+	float:left;
+	font-size:21px;
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align:center;
+	color:#00695c;
+	width:100%;
 	}
-	h3{
-		text-align:center;
-		color:#A2C3A6;
-		font-size:23px;
-		text-decoration:underline;
+.zabytki{
+	text-align:center;
+	float:left;
+	width:80%;
+	margin-left:10%;
 	}
-	p{
-		font-size:20px;
-		color:#00695c;
-		text-align:center;
+.kuchnia{
+	text-align:center;
+	float:left;
+	width:80%;
+	margin-left:10%;
+	}
+.tokyo{
+	text-align:center;
+	float:left;
+	width:80%;
+	margin-left:10%;
+	margin-bottom:70px;
+	}
+.footer{
+	color:#A2C3A6;
+	font-size:19px;
+	text-align:center;
+	clear:both;
+	}
+.more{
+	font-family: 'Verdana';
+	text-align:center;
+	color:#00897B;
+	font-size:20px;
+	}
+h1{
+	float:left;
+	color:#A2C3A6;
+	font-size:36px;
+	font-weight:normal;
+	padding-top:20px;
+	width:100%;
+	}
+h3{
+	text-align:center;
+	color:#A2C3A6;
+	font-size:23px;
+	text-decoration:underline;
+	}
+p{
+	font-size:20px;
+	color:#00695c;
+	text-align:center;
 	}
  {box-sizing: border-box}
 
 .navbar {
-  width:100%;
-  background-color: #00695c;
-  overflow: auto;
+	width:100%;
+	background-color: #00695c;
+	overflow: auto;
 }
 
 .navbar a {
-  float: left;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  color: #A2C3A6;
-  text-decoration: none;
-  font-size: 20px;
-  width: 30%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #A2C3A6;
+	text-decoration: none;
+	font-size: 20px;
+	width: 30%;
  
 }
 
 .navbar a:hover {
-  background-color: #004D40
+	background-color: #004D40
 }
 
 .navbar a.active {
-  background-color: #00897B;
+	background-color: #00897B;
 }
 
 @media screen and (min-width:1024px) {
@@ -113,15 +120,15 @@
 	margin-bottom:5px;
 	}
 	 .navbar {
-	width:22%;
-	float:left;
-	height:450px;
-	position:fixed;
-	top:200px;
+		width:22%;
+		float:left;
+		height:440px;
+		position:fixed;
+		top:200px;
 	}
 	.monuments{
-	float:right;
-	width:72%;
+		float:right;
+		width:72%;
 	}
 	h3{
 		text-align:left;
@@ -138,9 +145,21 @@
 
 @media screen and (max-width:720px) {
   .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left;
+  }
+  .monuments{
+		width:87%;
+		float:right;
+  }
+  .back{
+		position:fixed;
+		left:5%;
+		bottom:1%;
+  }
+  h1{
+	  margin-top:0;
   }
 }
