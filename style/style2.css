@@ -95,6 +95,12 @@ p{
 	overflow: auto;
 }
 
+.navbar ol, ul{
+	color:#A2C3A6;
+	font-size: 18px;
+	line-height:17px;
+	}
+
 .navbar a {
 	float: left;
 	padding-top: 10px;
@@ -112,6 +118,17 @@ p{
 
 .navbar a.active {
 	background-color: #00897B;
+}
+
+
+.mapa{
+	width:90%;
+	height:450px; 
+	frame-border:0; 
+	border:0;
+	allowfullscreen:; 
+	area-hidden:false;
+	tabindex:0;
 }
 
 @media screen and (min-width:1024px) {
@@ -133,6 +150,16 @@ p{
 		margin-left:27%;
 		width:68%;
 	}
+	.mapa{
+	margin-left:27%;
+	width:68%;
+	height:450px; 
+	frame-border:0; 
+	border:0;
+	allowfullscreen:; 
+	area-hidden:false;
+	tabindex:0;
+	}
 	h3{
 		text-align:left;
 		margin-top:0;
@@ -142,11 +169,15 @@ p{
 	}
 }
 
+
 @media screen and (max-width:1024px) {
-.monuments{
-		width:87%;
-		float:left;
-  }
+	.monuments{
+			width:87%;
+			float:left;
+	}
+	.navbar a{
+		width:50%;
+	}
 }
 
 @media screen and (max-width:720px) {
