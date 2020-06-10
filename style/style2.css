@@ -59,7 +59,15 @@
 		color:#00897B;
 		font-size:20px;
 	}
-	h1,h2,h3{
+	h1{
+		float:left;
+		color:#A2C3A6;
+		font-size:36px;
+		font-weight:normal;
+		padding-top:20px;
+		width:100%;
+	}
+	h3{
 		text-align:center;
 		color:#A2C3A6;
 		font-size:23px;
@@ -97,18 +105,25 @@
 }
 
 @media screen and (min-width:1024px) {
-	.zabytki{
-		width:45%;
-		float:left;
+	.navbar a {
+    float:left;
+    width: 100%;
+    text-align: left;
+	margin-bottom:5px;
 	}
-	.kuchnia{
-		width:45%;
-		float:right;
-		margin-right:10%;
+	 .navbar {
+	width:20%;
+	float:left;
+	height:450px;
+	position:fixed;
+	top:200px;
 	}
-	.tokyo{
-		width:45%;
-		float:left;
+	.monuments{
+	float:right;
+	width:75%;
+	}
+	#wieza{
+		margin-top:none;
 	}
 }
 
