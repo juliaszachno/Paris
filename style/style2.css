@@ -25,7 +25,16 @@
 	font-size: 20px;
 	text-align:center;
 	position:fixed;
-	right:5%;
+	right:1%;
+	bottom:7%;
+}
+.wiecej a{
+	color: #00897B;
+	text-decoration:none;
+	font-size: 20px;
+	text-align:center;
+	position:fixed;
+	right:1%;
 	bottom:1%;
 }
 .gallery img{
@@ -80,6 +89,15 @@
 .navbar a.active {
 	background-color: #00897B;
 }
+.bold{
+	font-weight:bold;
+}
+.zabytkii{
+	padding-top:30px;
+}
+.gallery, .spacer{
+	padding-bottom:30px;
+}
 
 h1{
 	float:left;
@@ -95,12 +113,24 @@ h3{
 	font-size:23px;
 	text-decoration:underline;
 	}
-p{
+p, ul, ol, table{
 	font-size:20px;
 	color:#00695c;
 	text-align:left;
 	}
-
+ul{
+	list-style-type:circle;
+}
+ol{
+	list-style-type:upper-latin;
+}
+table{
+	border-color:#A2C3A6;
+}
+td{
+	border-style:dotted;
+	padding:6px;
+	}
 @media screen and (min-width:1024px) {
 	.navbar a {
 		float:left;
@@ -135,6 +165,9 @@ p{
 	h3{
 		margin-top:0;
 	}
+	.zabytkii{
+		padding-top:0px;
+}
 }
 
 
@@ -172,5 +205,9 @@ p{
 	.gallery img{
 		padding:0px;
 		margin-left:0px;
+	}
+	table{
+		width:87%;
+		font-size:20px;
 	}
 }
