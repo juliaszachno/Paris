@@ -129,7 +129,7 @@ table{
 }
 td{
 	border-style:dotted;
-	padding:6px;
+	padding:4px;
 	}
 @media screen and (min-width:1024px) {
 	.navbar a {
