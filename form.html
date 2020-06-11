@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/logo.png"> 
+<link rel="stylesheet" type="text/css" href="style/style2.css">
+<title> Paryż </title>
+</head>
+<body>
+
+<div class="content">
+		<div class="logo">
+			<a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+		</div>
+		
+		<div class="header" id="paris">
+				Paryż
+		</div>
+		
+		<h1> Formularz </h1>
+		
+		<div class="navbar">
+			
+			<a href="zabytki.html">&nbsp&nbsp Co warto zwiedzić?<br></a> 
+			<a href="opis.html">&nbsp&nbsp Informacje<br></a> 
+			<a href="media.html">&nbsp&nbsp Media<br></a>
+		</div>	
+		
+		<form action="mailto:julia.szachno@tm1.edu.pl" method="POST">
+		<h3>Spodobał ci się Paryż?</h3>
+			<input type="radio" id="tak" name="liked" value="tak" checked>
+			<label for="tak">Tak</label><br> 
+			<input type="radio" id="nie" name="liked" value="nie">
+			<label for="nie">Nie</label><br><br>
+	
+
+		<h3>Które zabytki najbardziej Ci się podobały?</h3>
+			<input type="checkbox" id="wieza" name="wieza">
+			<label for="wieza">Wieża Eiffla</label>
+			<br>
+			<input type="checkbox" id="luwr" name="luwr">
+			<label for="luwr">Muzeum Luwr</label>
+			<br>
+			<input type="checkbox" id="notredame" name="notredame">
+			<label for="notredame">Katedra Notre Dame</label>
+			<br>
+			<input type="checkbox" id="arc" name="arc">
+			<label for="arc"> Łuk Triumfalny </label>
+			<br>
+			<input type="checkbox" id="sacrecoeur" name="sacrecoeur">
+			<label for="sacrecoeur"> Bazylika Sacre Coeur </label>
+			<br>
+			<input type="checkbox" id="zaden" name="zaden">
+			<label for="zaden">Żaden z powyższych</label>
+			<br><br>
+	
+	  <h3>A może masz inny zabytek, który Ci się podoba?<br>
+	  Jeśli tak to napisz tutaj ↓</h3> 
+	  <input type="text" name="favorite">
+	 <br><br>
+
+	  <h3>Czy Paryż jest super?</h3>
+	  <label for="super"><input type="text" id="super" name="super" value="Oczywiście!!!!!" disabled></label><br><br><br>
+	  <button type="submit">Wyślij</button>
+	  <button type="reset">Wyczyść formularz</button>
+  </form>
+		
+		<div class="footer" style="margin-top:60px;">
+			Julia Szachno 2ta
+		</div>
+</div>
+
+
+   
+</body>
+</html> 

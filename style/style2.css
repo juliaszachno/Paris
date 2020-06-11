@@ -99,6 +99,12 @@
 	padding-bottom:30px;
 }
 
+form{
+	font-size:20px;
+	color:#00695c;
+	text-align:left;
+}
+
 h1{
 	float:left;
 	color:#A2C3A6;
@@ -144,7 +150,7 @@ td{
 		position:fixed;
 		top:200px;
 	}
-	.monuments, .center{
+	.monuments, .center, form{
 		float:left;
 		margin-left:27%;
 		width:68%;
